@@ -22,10 +22,10 @@
 
 @EnableAsync
 @SpringBootApplication
-public class OmpassStressTesterApplication {
+public class TestApplication {
 
     public static void main(String[] args)  {
-        SpringApplication.run(OmpassStressTesterApplication.class, args);
+        SpringApplication.run(TestApplication.class, args);
         Security.addProvider(new BouncyCastleFipsProvider()); // 이 코드를 꼭 추가해줘야함 
 
     } 
