@@ -1,7 +1,7 @@
 # How to Create a Certificate in a Spring Boot
 
 
-## 1. pom.xml에 bouncycastle dependency 추가 
+### 1. pom.xml에 bouncycastle dependency 추가 
  > EC 알고리즘을 활용하여 키쌍을 생성 후 인증서를 만들기 위함임! 
 
 ```
@@ -15,7 +15,7 @@
 다른 버전의 의존성을 주입하고 싶다면 메이븐 레포지토리에서 찾아서 pom.xml에 추가 !! 
 
 
-## 2. spring boot의 main 메서드에 아래 코드 추가 ! 
+### 2. spring boot의 main 메서드에 아래 코드 추가 ! 
 > 굳이 메인 메서드에 선언 할 필요는 없음 사용하기 전에만 provider를 추가해주면 된다! 
 
 ``` java 
@@ -33,7 +33,7 @@ public class OmpassStressTesterApplication {
 
 ```
 
-## 3. EC.java 코드를 참고한다. 
+### 3. EC.java 코드를 참고한다. 
 
 > MVC 패턴으로 작성되지 않은 이유는 회사에서 개발한 내용이기에 전체 코드를 공개 할 순 없어서이다 ! EC.java 를 참고하여 
 키쌍을 만들고 해당 키쌍을 통해 인증서를 만들어 준다 !!! 자세한 설명은 코드와 주석 참고!
