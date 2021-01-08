@@ -1,4 +1,4 @@
-# How to Create a Certificate in a Spring Boot
+# How to Create a Certificate in Spring Boot
 
 
 ### 1. pom.xml에 bouncycastle dependency 추가 
@@ -51,3 +51,6 @@ public class OmpassStressTesterApplication {
  // algorithm, dn,provider 이 부분은 필요에 따라 알아서 넣음 된다! 
 
 ```
+
+
+추후에 EC 알고리즘을 통해 암호화 및 복호화 하는 내용 추가 할 것 ! 
